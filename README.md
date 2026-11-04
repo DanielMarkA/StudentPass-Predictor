@@ -60,7 +60,26 @@ Evaluated on the held-out 20% test dataset ($N = 120$):
 * Visual Studio 2022 or VS Code
 
 ### Steps to Run
+
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/StudentPassPredictor.git](https://github.com/your-username/StudentPassPredictor.git)
+
+   ```
+   git clone https://github.com/your-username/StudentPassPredictor.git
    cd StudentPassPredictor
+   
+   ```
+
+2. Verify `student_performance.csv` is present in `data` directory.
+
+3. Run the project using the .NET CLI:
+
+   ```
+   dotnet run
+   
+   ```
+
+### Output Artifacts
+
+* **Console Stream**: Displays live data loading summaries, hyperparameter tuning comparisons, training loss output every 100 epochs, and test evaluation metrics.
+
+* **`training_log.csv`**: Automatically generated file tracking the Mean Squared Error (MSE) per epoch for convergence visualization.
