@@ -64,7 +64,7 @@ Evaluated on the held-out 20% test dataset ($N = 120$):
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/StudentPassPredictor.git
+   git clone https://github.com/DanielMarkA/StudentPass-Predictor
    cd StudentPassPredictor
    
    ```
