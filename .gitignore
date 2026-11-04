@@ -1,0 +1,17 @@
+[Bb]in/
+[Oo]bj/
+out/
+[LGs]og/
+[LGs]ogs/
+
+
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+.vs/
+
+.DS_Store
+Thumbs.db
